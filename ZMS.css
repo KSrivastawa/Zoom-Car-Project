@@ -1,0 +1,489 @@
+ /* background image css  */
+
+ #background_view{
+    width: 101%;
+    height: 680px;
+    /* border: 1px solid black; */
+    background-color: #10a310;
+    margin: auto;
+}
+#background_view>img{
+    height: 95%;
+    width: 100%;
+    position: absolute;
+}
+
+ /* navbar-- css */
+
+#navbar{
+    display: flex;
+    height: 62px;
+    width: 925px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    color: #000000;
+    font: 16px "IBM plex sans";
+    /* border: 1px solid black; */
+    margin: auto;
+    position:relative;
+}
+
+#navbar>img{
+    height: 28px;
+    width: 120px;
+    
+}
+
+#navbar>button{
+    height: 42px;
+    width: 133px;
+    color: #1f1f1f;
+    font: 14px arial;
+    border-radius: 7px;
+    padding: 10px 17px 10px 18px;
+    border: none;
+}
+
+/* after navbar - headings css */
+
+#headings{
+    width: 500px;
+    height: auto;
+    margin-top: 120px;
+    /* border: 1px solid black; */
+    margin-left: 35%;
+    position: relative;
+    
+}
+
+#main_heading{
+    margin-bottom: 150px;
+    height: 97px;
+    width: 500px;
+    color: #ffffff;;
+    font-size:  36px ;
+    font-family:  sans-serif;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+    font-weight: bold;
+}
+
+#main_sub_heading{
+    height: 64px;
+    width: 500px;
+    color: #ffffff;
+    font:  16px  sans-serif;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+   
+}
+
+#btn{
+    height: 80px;
+    width: 220px;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+}
+
+#btn>button{
+    margin-top: 40px;
+    height: 40px;
+    width: 220px;
+    color: #ffffff;
+    font:  14px arial; 
+    background:#10a310 ;
+    padding: 12px 33px 12px 34px;
+    border-radius: 7px;
+    border: none;
+}
+
+/* product offerings */
+
+#Product_head{
+    text-align: center;
+    font-weight: bold;
+    font-family:sans-serif ;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+#services{
+    width: 56%;
+    height: 6%;
+    /* border: 1px solid black; */
+    padding: 5px;
+    position: relative;
+    margin-bottom: -30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 21%;
+}
+
+#Default_veichle_solutions{
+    height: 55px;
+    width: 418px;
+    /* color: #ffffff; */
+    font:  14px arial; 
+    /* background:#10a310 ; */
+    padding: 20px 66px 20px 68px;
+    border-radius: 10px;
+    border: none;
+}
+#management_services{
+    height: 55px;
+    width: 418px;
+    /* color: #ffffff; */
+    font:  14px arial; 
+    /* background:#10a310 ; */
+    padding: 20px 66px 20px 68px;
+    border-radius: 10px;
+    border: none;
+}
+
+#pro_off{
+    width: 60%;
+    height: 900px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:whitesmoke ;
+    margin: auto;
+}
+
+#pro_off2{
+    width: 60%;
+    height: 900px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:whitesmoke ;
+    margin: auto;
+}
+
+
+#ptag{
+    font-family: sans-serif;
+    width: 65%;
+    text-align: center;
+    margin-left:18% ;
+    margin-top: 50px;
+}
+
+/* sliding box */
+
+#sliding{
+    width: 100%;
+    height: 38%;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+    /* Slideshow container */
+    .slideshow-container{
+        max-width: 100%;
+        max-height: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+        /* hide the image by default */
+    .mySlides{
+        display: none;
+    }
+    .mySlides>img{
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    /* =================== */
+
+#feat{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family:sans-serif ;
+}
+
+#features{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+
+#more_details{
+    margin-top: 40px;
+    height: 40px;
+    width: 220px;
+    color: #ffffff;
+    font:  14px arial; 
+    background:#10a310 ;
+    padding: 12px 33px 12px 34px;
+    border-radius: 7px;
+    border: none;
+}
+
+#more_details2{
+    margin-top: 40px;
+    height: 40px;
+    width: 220px;
+    color: #ffffff;
+    font:  14px arial; 
+    background:#10a310 ;
+    padding: 12px 33px 12px 34px;
+    border-radius: 7px;
+    border: none;
+}
+
+#fe_1st{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+#fe_2nd{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+
+}
+
+.inner1_fe{
+    padding:10px;
+    width: 33%;
+    height: 100%;
+    font-family:sans-serif ;
+}
+
+.inner2_fe{
+    padding:10px;
+    width: 33%;
+    height: 100%;
+    font-family:sans-serif ;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* ====================================================== */
+
+#partenersBacground{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+#partenersBacground>img{
+    height: 100%;
+    width: 100%;
+}
+#partenersTitle{
+    margin-top: 170px;
+    position: relative;
+    margin-left: 40%;
+    margin-bottom: -160px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#causes{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    width: 67%;
+    height: 600px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: -340px;
+    margin-left: 16%;
+    background-color: whitesmoke;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+#causes>div{
+    /* border: 1px solid green; */
+    padding: 25px;
+}
+
+
+.image{
+    height: 20%;
+    width: 15%;
+}
+.title{
+    font-family: sans-serif;
+}
+.summary{
+    font-family: sans-serif;
+}
+
+
+
+/* ====================================================== */
+#mapImage{
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-bottom: 50px;
+}
+#mapImage>img{
+    width: 100%;
+    height: 100%;
+}
+
+#trackheadings{
+  /* border: 1px solid black; */
+  position: relative;
+  width: 30%;
+  text-align: center;
+  margin-bottom: -450px;
+  margin-left: 35%;
+  font-family: sans-serif;
+}
+
+
+#background{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+}
+#background>img{
+    height: 100%;
+    width: 100%;
+}
+
+#trackRecords{
+    width: 55%;
+    height: 550px;
+    margin: auto;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-top: -450px;
+    margin-bottom: 80px;
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 45%);
+    gap: 20px;
+}
+#trackRecords>div{
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.image2{
+    height: 30%;
+    width: 30%;
+}
+.title2{
+    margin-top: 80px;
+}
+/* ====================================================== */
+
+#submit_details{
+    /* border: 1px solid black; */
+    width: 32%;
+    height: auto;
+    margin: auto;
+
+}
+
+#submit_button{
+    margin-top: 40px;
+    height: 40px;
+    width: 220px;
+    color: #ffffff;
+    font:  14px arial; 
+    background:#10a310 ;
+    padding: 12px 33px 12px 34px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 22%;
+}
+
+#p2{
+    color: green;
+    font-family: sans-serif;
+}
+
+#p3{
+    color: red;
+    font-family: sans-serif; 
+}
+
+#h1{
+    font-family: sans-serif;  
+    text-align: center; 
+}
+
+#p{
+    font-family: sans-serif; 
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#box>div{
+    display: flex;
+    width: 99%;
+    height: 60px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#input1{
+    width: 42%;
+}
+#input2{
+    width: 42%;
+}
+
+#input3{
+    width: 100%;
+}
+
+#input4{
+    width: 42%;
+}
+#input5{
+    width: 42%;
+}
+
+#textarea{
+    width: 95%;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input{
+    border-color: rgb(192, 187, 187);
+    border-radius: 5px;
+    border-width: 0.2px;
+    padding: 10px;
+}
+
+input:hover{
+    border:2px solid #10a310;
+}
+textarea:hover{
+    border: 2px solid #10a310;
+}
