@@ -1,0 +1,98 @@
+#picca{
+    margin: auto;
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 30px;
+}
+#details{
+    font-family: "IBM Plex Sans";
+ /* font-size: 18px; */
+    text-align: center;
+
+    margin-left: -170px;
+    /* ........... */
+    /* font-family: "IBM Plex Sans"; */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1f1f1f;
+    padding: 16px 0 24px 0px;
+}
+#down{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 0px; */
+    /* line-height: 20px; */
+}
+#mob{
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    line-height:18px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #666;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 8px; 
+    margin-left: 30px;
+    /* ....................... */
+    /* border-left: 6px solid green;
+  height: 40px;
+  /* position: absolute; */
+  /* left: 50%;
+/
+  top: 0; */ 
+}
+#mail{
+    font-family: "IBM Plex Sans";
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 12px;
+    color: #10a310;
+    padding: 8px 0; 
+    color: #10a310;
+    margin-left: -260px;
+}
+#social{
+    font-family: "IBM Plex Sans";
+    font-size: 17px;
+    font-weight: 550;
+    line-height: 12px;
+    color: #10a310;
+     padding: 8px 0; 
+    color: #10a310;
+    margin-left: -240px;
+    display: inline;
+    /* display: flex; */
+}
+.line{
+    width: 29%;
+    color: hsl(10, 4%, 71%);
+}
+.upimg{
+     margin-bottom: -10px;
+    /* margin-left: 80px; */
+   
+}
+#choose{
+    margin-left: -300px;
+    margin-bottom: -40px;
+    border: 0px;
+    /* line-height: 20px; */
+  
+}
+#choose select{
+    font-size:20px;
+    margin-left: -22px;
+    border: 0px;
+    /* line-height: 20px; */
+    /* white-space: normal; */
+    /* background-color: #10a310; */
+
+}
+#optn{
+    border: 0px;
+    box-sizing: border-box;
+    
+    font-size: 20px;
+    
+}

@@ -1,0 +1,118 @@
+#arrow{
+    text-align: center;
+    width:4%;
+    /* margin: auto; */
+    font-size: 30px;
+   margin-left: 540px;
+   cursor: pointer;
+
+    
+}
+
+/* .left span::before{
+    content: "\2190";
+  text-align: center;
+  margin-left: 100px;
+  font-size: 24px;
+
+} */
+#head_mob{
+    /* text-align: center; */
+    font-family:"IBM Plex Sans";
+   
+}
+#heading_mob,#laststep{
+    margin-left:565px ;
+}
+#laststep{
+    margin-top: -10px;
+    color: #666;
+}
+#optn_mob{
+    border: 2px solid #10a310;
+    border-radius: 4px;
+    padding: 13px 18px 13px 9px;
+    font-size: 18px;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-left:565px ;
+    margin-top: 28px;
+    display: flex
+}
+#choose_mob{
+    /* text-align: center; */
+    /* margin: auto; */
+    display:inline;
+}
+.mob-input input{
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .24px;
+    color: #666;
+     position: relative;
+     position: absolute;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 25%; 
+    padding: 16px 12px;
+    outline: none;
+    margin-left:670px ;
+    /* display: flex; */ 
+    margin-top: -50px;
+    border: 1px solid;
+   
+}
+.continue{
+    font-style: normal;
+    text-align: start;
+    box-sizing: inherit;
+    border-radius: 4px;
+    padding: 16px 20px;
+    background-color:rgba(128, 128, 128, 0.551);
+    width: 90%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+   font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0px;
+    max-width: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.email-input input{
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .24px;
+    color: #666;
+     /* position: relative; */
+     /* position: absolute; */
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 31%; 
+    padding: 16px 12px;
+    outline: none;
+    margin-left:570px ;
+    /* display: flex; */ 
+     margin-top: 30px; 
+}
+.email-input input:hover{
+    border:1px solid #10a310;
+}
+#conti{
+    background-color: green;
+}
