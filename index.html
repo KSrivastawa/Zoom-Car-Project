@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Car</title>
+    <link rel="stylesheet" href="Home.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/navbar1.css">
+    <link rel="stylesheet" href="./styles/sidebar1.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="logo">
+            <img id="img" src="./Zlogo.png" alt="">
+        </div>
+        <div id="left">
+            <h3><a id="a1" href="./become.html">Become a Host</a></h3>
+            <h3><a id="a1" href="./ZMS.html"> ZMS</a></h3>
+            <h3><a id="a1" href="./main.html">Login/Signup</a></h3>
+        </div>
+    </div>
+    <div id="sidebar">
+
+        <div class="user">
+            <div> <a id="a2" href="./main.html"><i class="fa-solid fa-user"></a></i> </div>
+            <div>
+                <h4 class="cl">Login or Signup</h4>
+            </div>
+        </div>
+        <div class="user">
+            <a id="a" href="./city.html"><i class="fa-solid fa-location-dot"></a></i>
+            <h4 class="cl">Change City</h4>
+            <h4 id="green"></h4>
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-globe"></i>
+            <h4 class="cl">Change Language</h4>
+            <h4 id="green">English</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="./supermiler.html"><i class="fa-brands fa-stripe-s"></a></i>
+            <h4 class="cl">Supermiler Club</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="./policies1.html"> <i class="fa-solid fa-square-poll-horizontal"></a></i>
+            <h4 class="cl">Zoomcar Fleet Vehicles Policies</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="./policies2.html"> <i class="fa-solid fa-square-poll-horizontal"></a></i>
+            <h4 class="cl">Zoomcar Host Vehicles Policies</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="./help&supp.html"><i class="fa-solid fa-phone"></a></i>
+            <h4 class="cl">Help&Support</h4>
+        </div>
+    </div>
+
+
+
+
+    <!-- Ended -->
+    <div id="backgroundimage">
+        <img src="https://www.zoomcar.com/img/bg-mobile.png" alt="">
+
+    </div>
+    <form>
+        <div class="ride-selection">
+            <span>Round Trip</span>
+            <i class="icon-chevron-down"></i>
+        </div>
+        <div class="box-border">
+            <div class="field-wrap">
+                <div class="field field-address">
+                    <div onclick="cityfun()" id="City">
+
+
+                        <!-- <input type="text" placeholder=" Pick Up City, Airport, Address or Hotel"> -->
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-wrapper">
+                <button onclick="change()" id="btn"> FIND CARS</button>
+
+            </div>
+
+
+        </div>
+    </form>
+
+    <div id="backgroundimage2" onclick="redriect()">
+        <div id="abhi1" class="card">
+            <div class="cardtext">
+                <h1>Do your friends like a weekend <br> get away?</h1>
+                <p>You earn Rs 1200 as Z-Points.<br> Your friend gets flat 40% off.<br> (Max upto Rs 2500)</p>
+
+            </div>
+            <div class="cardimg">
+                <img src="https://www.zoomcar.com/img/people.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div id="abhi2" class="card">
+            <div class="cardtext">
+                <h1>UP TO 50% OFF<br>
+                    on your first booking from the app!</h1>
+                <div id="code">
+                    <h2>Use Code: ZOOMAPP</h2>
+                </div>
+            </div>
+            <div class="cardimg">
+                <img src="https://www.zoomcar.com/img/cellphone.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="reffer">
+        <img src="https://www.zoomcar.com/img/right-arrow-green.svg" alt="">
+        <h3><b>Refer and Earn</b></h3>
+
+    </div>
+    <div id="reffer2">
+
+        <h2><b>Install Zoomcar App now!
+
+            </b></h2>
+
+    </div>
+
+    <div id="backgroundimage3">
+
+
+        <div id="abhi3" class="cardimg2">
+            <img src="https://zoomcar-assets.zoomcar.com/pictures/original/d70e7f58da384df0f3ba169cf19e8e931879c66c.jpeg?1652354515"
+                alt="">
+        </div>
+
+
+
+
+        <div id="abhi4" class="cardimg2">
+            <img src="https://zoomcar-assets.zoomcar.com/pictures/original/e3dfe0ed91abc29facaf56a327b4498ce4e9b75e.jpeg?1652363808"
+                alt="">
+        </div>
+
+    </div>
+    <div id="backgroundimage4">
+        <img src="https://zoomcar-assets.zoomcar.com/pictures/original/55c3970a33c8f4d10dd3c9ace39d20e32af5c8ba.jpg?1651758755"
+            alt="">
+
+    </div>
+
+    <div id="OFFERS">
+        <h3>OFFERS</h3>
+        <div id="OFFERS2">
+            <div>
+                <img src="https://zoomcar-assets.zoomcar.com/photos/original/0d948091d1befad4507bd5710ad03a309f5b5345.jpg?1651837793"
+                    alt="">
+            </div>
+            <div>
+                <img src="https://zoomcar-assets.zoomcar.com/photos/original/04c58c8d2c2e42ae1da4a8821643f43f8d2629e4.jpg?1646817336"
+                    alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- about us -->
+    <div id="About">
+        <div>
+            <h3><b>SELF DRIVE CARS IN PUNE</b> </h3>
+            <p>The cultural capital of Maharashtra, Pune was once home to the mighty Marathas, and retains their legacy
+                in the many monuments it is home to, as well as the rich culture which is lovingly preserved by the
+                people of the city. Pune is called the Oxford of the East and is fast emerging as the preferred
+                destination for several multinational companies too. With opportunities for education, jobs and a
+                vibrant nightlife, Pune attracts youngsters from all over the country.
+                These money-savvy youngsters seek the convenience of self-drive cars without the liability of buying and
+                owning one. Zoomcar fills this need with a well-maintained fleet of cars from every segment. Choose a
+                Zoomcar self-drive car rental in Pune and experience the convenience it provides.</p>
+        </div>
+        <div>
+            <h3>SELF DRIVE CAR ON RENT IN PUNE</h3>
+            <p>Besides a range of cars to choose from, Zoomcar also offers its users a choice of flexible tariff plans.
+                Pick a plan keeping in mind your requirement to make the most of every booking. If you are looking for a
+                vehicle to commute to work or college, the Zoom commute is the right plan for you. Travel alone, or
+                carpool with your friends, sharing the cost of rental for maximum savings. Pune is central to several
+                tourist destinations, the most popular among which are Lonavla and Khandala. Make every weekend fun with
+                a self-drive car rental to a new destination. Zoomcar not only ensures freedom safety and privacy but
+                also comes with features which are designed to ensure a hassle free ride. </p>
+        </div>
+        <div>
+            <h3>CAR RENTAL IN PUNE</h3>
+            <p>For frequent travelers shuttling between Pune to Mumbai on a regular basis, taking a car for rent in Pune
+                is ideal as they have the convenience of embarking on the journey at any time of the day. The well
+                maintained Mumbai-Pune expressway is a pleasure to drive on. For those visiting the temple town of
+                Shirdi from Pune, a rental car would be more reasonable and convenient when compared to a chauffeur
+                driven car as the queues at the temples are unpredictable. It is a 4-hour drive from Pune to Shirdi.</p>
+        </div>
+        <div>
+            <h3>ABOUT ZOOMCAR</h3>
+            <p>No more worries about petrol mileage, insurance, and car breakdowns! Zoomcar has enabled driving
+                convenience for travellers around the country and is fast expanding its reach to cities including
+                Ahmedabad, Bangalore, Chandigarh, Chennai, Coimbatore, Delhi-NCR, Hyderabad, Jaipur, Kochi, Kolkata,
+                Ludhiana, Mangalore, Mumbai, Mysore, Pune, Siliguri and Vizag.
+                Self drive cars from Zoomcar have given customers more control, privacy, and freedom. Book a self drive
+                car in any city you visit with the Zoomcar app on your phone and feel at home wherever you go. </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+<script src="Home.js">
+
+</script>
+<script>
+
+
+    let ram = JSON.parse(localStorage.getItem("ram")) || []
+    // console.log(ram)
+
+
+
+
+
+    document.getElementById("City").innerHTML = ram
+    //   document.getElementById("City").placeholder=ram
+    //   document.getElementById("City").style.color="black"
+    if (document.getElementById("City").innerHTML === "") {
+
+        document.getElementById("City").innerHTML = "Pick Up City, Airport, Address or Hotel"
+    }
+    else {
+        document.getElementById("btn").style.backgroundColor = "#10a310";
+        document.getElementById("btn").style.color = "#fff";
+    }
+    console.log(document.getElementById("City").innerHTML)
+</script>
+<script>
+    document.getElementById("abhi1").addEventListener("click", abhishek)
+    function abhishek() {
+        window.location.href = "main.html"
+    }
+
+    document.getElementById("abhi2").addEventListener("click", abhishek)
+    function abhishek() {
+        window.location.href = "Trip.html"
+    }
+
+    document.getElementById("abhi3").addEventListener("click", abhishek)
+    function abhishek() {
+        window.location.href = "Trip.html"
+    }
+
+    document.getElementById("abhi4").addEventListener("click", abhishek)
+    function abhishek() {
+        window.location.href = "Trip.html"
+    }
+
+
+</script>
+<script src="./scripts/sidebar.js"></script>
+<script>
+    var green = document.getElementById("green")
+    var arr = JSON.parse(localStorage.getItem("place"))
+    green.innerText = arr;
+
+</script> 
+<script>
+  
+</script>

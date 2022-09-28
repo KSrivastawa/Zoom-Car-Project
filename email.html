@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css/email.css">
+<body>
+    <div id="arrow">
+        <span class="left">
+            &#8592;
+        </span>
+       </div>
+    
+       <div id="head_mob">
+        <h2 id="heading_mob">
+            Please Fill Some Details
+        </h2>
+       </div>
+       <p id="laststep">One last step to create a new account</p>
+    
+     
+       <div id="choose_mob">
+       
+      <select name="" id="optn_mob">
+       <option value="" class="code_mob">+91 </option>
+       <option value="" class="code_mob">+20 </option>
+       <option value=""  class="code_mob">+84 </option>
+       <option value=""  class="code_mob">+62 </option>
+      </select>
+       
+    </div>
+    <div class="mob-input">
+        <input
+          type="number"
+          name="mobile_no"
+          id="mobile_no"
+          placeholder="Mobile Number"
+          maxlength="10"
+          inputmode="numeric"
+          autocomplete="off"
+          type="text"
+        />
+        </div>
+
+        <div class="email-input">
+            <input
+              type="text"
+              name="email_id"
+              id="email_id"
+              placeholder="Email Id"
+              
+              inputmode="text"
+              autocomplete="off"
+              type="text"
+              oninput="mob()"
+            />
+            </div>
+
+          
+        <div class="continue">
+            <div>Continue</div>
+        </div>
+        
+</body>
+</html>
+<script src="./script/email.js"></script>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ZoomCar/styles/navbar1.css">
+
+</head>
+<style>
+    * {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    body {
+        border: 0.5px solid rgb(202, 202, 202);
+    }
+
+    #h5 {
+        color: grey;
+        font-weight: lighter;
+    }
+
+    #last {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -150px;
+    }
+
+    #contact {
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(40, 171, 40);
+
+    }
+
+    #big {
+        /* border: 1px solid grey; */
+        height: 80%;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    #ul {
+        display: flex;
+    }
+
+    ol:hover {
+        color: rgb(40, 171, 40);
+
+    }
+
+    #h4 {
+
+        display: flex;
+        gap: 10px;
+    }
+
+    #h1 {
+        margin-left: 70px;
+    }
+
+    #parent {
+        width: 100%;
+    }
+
+    #child {
+        width: 80%;
+        margin: auto;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    #clr:hover {
+        color: rgb(40, 171, 40);
+    }
+</style>
+
+<body>
+    <div id="navbar">
+        <div id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="logo">
+            <img id="img" src="./Zlogo.png" alt="">
+        </div>
+        <div id="left">
+            <h3><a id="a1" href="/ZoomCar/become.html">Become a Host</a></h3>
+            <h3><a id="a1" href="/ZoomCar/ZMS.html"> ZMS</a></h3>
+            <h3><a id="a1" href="/ZoomCar/main.html">Login/Signup</a></h3>
+        </div>
+    </div>
+    <div id="sidebar">
+
+        <div class="user">
+            <div> <a id="a2" href="/ZoomCar/main.html"><i class="fa-solid fa-user"></a></i> </div>
+            <div>
+                <h4 class="cl">Login or Signup</h4>
+            </div>
+        </div>
+        <div class="user">
+            <a id="a" href="city.html"><i class="fa-solid fa-location-dot"></a></i>
+            <h4 class="cl">Change City</h4>
+            <h4 id="green"></h4>
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-globe"></i>
+            <h4 class="cl">Change Language</h4>
+            <h4 id="green">English</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="supermiler.html"><i class="fa-brands fa-stripe-s"></a></i>
+            <h4 class="cl">Supermiler Club</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="policies1.html"> <i class="fa-solid fa-square-poll-horizontal"></a></i>
+            <h4 class="cl">Zoomcar Fleet Vehicles Policies</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="policies2.html"> <i class="fa-solid fa-square-poll-horizontal"></a></i>
+            <h4 class="cl">Zoomcar Host Vehicles Policies</h4>
+        </div>
+        <div class="user">
+            <a id="a" href="help&supp.html"><i class="fa-solid fa-phone"></a></i>
+            <h4 class="cl">Help&Support</h4>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="parent">
+        <div id="child">
+            <div id="h4">
+                <h4>Home/</h4>
+                <h4><a href="help&supp.html"> Faq/</a></h4>
+                <h4 id="clr">Deals & Discounts</h4>
+            </div>
+
+            <div id="h1">
+                <h1>Deals & Discounts</h1>
+                <ul id="ul">
+                    <ol>DISCOUNTS</ol>
+                    <ol>CREDITS</ol>
+                    <ol>SUPERMILER & ELITE</ol>
+                    <ol>DRIVER SCORE</ol>
+
+                </ul>
+            </div>
+            <div>
+                <h2>POPULAR QUERIES</h2>
+
+                <p class="accordion">Do I have to return the car to the same location where I picked it up?
+
+                </p>
+                <div class="panel">
+                    <p> Yes. You must bring the vehicle back to the same place you picked it up before the end of your
+                        reservation. If you dropoff the car at a location different from your pickup point, you will be
+                        charged INR 2,000, and the full hourly rate and late fees until the vehicle is returned to the
+                        correct location.</p>
+                </div>
+
+                <p class="accordion">What happens if I return the car late? </p>
+                <div class="panel">
+                    <p> A high penalty will be applicable for the amount of time you are late. In order to avoid paying
+                        this
+                        penalty, you can extend the booking from the app, well in advance.
+                    </p>
+                </div>
+
+                <p class="accordion">How will I receive my Refund? </p>
+                <div class="panel">
+                    <p>
+
+                        "Refund will be initiated to the account/card used to make the payment and will take upto 30
+                        days to settle." If the payment was made from the wallet account, it would take 24-48 hrs for
+                        the refund to settle..</p>
+                </div>
+                <button class="accordion">Show More⧨ </button>
+                <p class="accordion">How long do refunds take?
+                </p>
+                <div class="panel">
+                    <p>
+
+                        All Refunds made shall be through the original payment account only within 30 working days</p>
+                    <p class="accordion">What happens if I return the car late? </p>
+                    <div class="panel">
+                        <p> A high penalty will be applicable for the amount of time you are late. In order to avoid
+                            paying
+                            this
+                            penalty, you can extend the booking from the app, well in advance.
+                        </p>
+                    </div>
+
+                    <p class="accordion">How will I receive my Refund? </p>
+                    <div class="panel">
+                        <p>
+
+                            "Refund will be initiated to the account/card used to make the payment and will take upto 30
+                            days to settle." If the payment was made from the wallet account, it would take 24-48 hrs
+                            for
+                            the refund to settle..</p>
+                    </div>
+                </div>
+
+                <div id="big">
+                    <h2>Cant find answer?</h2><br>
+                    <h5 id="h5">Get in touch with us. We are here to help you.</h5><br>
+                    <div id="last">
+                        <h3>Email</h3>
+                        <h3>Call Center Number</h3>
+                    </div>
+                    <div id="contact">
+                        <h4>help@zoomcar.com</h4>
+                        <h4>08068976666</h4>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+<script src="/ZoomCar/scripts/sidebar.js"></script>

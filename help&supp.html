@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/navbar1.css">
+
+</head>
+<style>
+    * {
+        cursor: pointer;
+    }
+
+    body {
+        border: 0.5px solid rgb(202, 202, 202);
+    }
+
+    h5 {
+        color: grey;
+        font-weight: lighter;
+    }
+
+    #last {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -150px;
+    }
+
+    a {
+        text-decoration: none;
+        color: grey;
+    }
+
+    #contact {
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(40, 171, 40);
+
+    }
+
+    #big {
+        /* border: 1px solid grey; */
+        height: 80%;
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    #icon {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img:hover {
+        background-color: rgb(223, 216, 216);
+        /* background-color: grey; */
+        box-shadow: rgba(69, 68, 68, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+    }
+
+    .img {
+        text-align: center;
+        height: 30%;
+        width: 30%;
+    }
+
+    #p {
+        color: black;
+    }
+
+    #parent {
+        width: 100%;
+    }
+
+    #child {
+        width: 80%;
+        margin: auto;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    button {
+        width: auto;
+        background-color: aliceblue;
+    }
+</style>
+
+<body>
+    <div id="navbar">
+        <div id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="logo">
+            <img id="img" src="./Zlogo.png" alt="">
+        </div>
+        <div id="left">
+            <h3>Become a Host</h3>
+            <h3>ZMS</h3>
+            <h3>Login/Signup</h3>
+        </div>
+    </div>
+    <div id="parent">
+        <div id="child">
+            <div>
+                <h1>HELP & SUPPORT</h1><br>
+            </div>
+            <div id="icon">
+                <div class="img">
+                    <img src="https://zoomcar-assets.zoomcar.com/images/original/5bf429e9b5b79b217ba71f00cff8dff3f17d71e8.png"
+                        alt=""><br>
+                    <p id="p"><a href="./joining.html"> Joining Zoomcar</a></p><br>
+                </div>
+                <div class="img"> <img
+                        src="https://zoomcar-assets.zoomcar.com/images/original/f6a4cda1d027872d4276416e9b0cc94a208d342f.png"
+                        alt=""><br>
+                    <p id="p"><a href="./booking.html"> Booking a Zoomcar</a></p><br>
+                </div>
+                <div class="img"> <img
+                        src="https://zoomcar-assets.zoomcar.com/images/original/fb893c01d3f0f43ff788fe40423d1713bb14b2e6.png"
+                        alt=""><br>
+                    <p id="p"><a href="./payments.html"> Payments and Charges</a></p><br>
+                </div>
+                <div class="img"> <img
+                        src="https://zoomcar-assets.zoomcar.com/images/original/7c85b49667922f6ed6ca33b3bcef0f9df8310446.png"
+                        alt=""><br>
+                    <p id="p"><a href="./wallet.html"> Wallet and Refunds</a></p><br>
+                </div>
+                <div class="img"><img
+                        src="https://zoomcar-assets.zoomcar.com/images/original/3ad20d92611d0cc9543ea9579f2fdc85486c5b70.png"
+                        alt=""><br>
+                    <p id="p"><a href="./deals.html"> Deals and Discounts</a></p><br>
+                </div>
+                <div class="img"><img
+                        src="https://zoomcar-assets.zoomcar.com/images/original/c5a9cba447b3c3d118fa4707ec3a93fb80e92364.png"
+                        alt=""><br>
+                    <p id="p"><a href="./live.html"> Live Assistance</a></p><br>
+                </div>
+
+
+            </div>
+            <div>
+                <h2>POPULAR QUERIES</h2>
+
+                <p class="accordion">Do I have to return the car to the same location where I picked it up?
+
+                </p>
+                <div class="panel">
+                    <p> Yes. You must bring the vehicle back to the same place you picked it up before the end of your
+                        reservation. If you dropoff the car at a location different from your pickup point, you will be
+                        charged INR 2,000, and the full hourly rate and late fees until the vehicle is returned to the
+                        correct location.</p>
+                </div>
+
+                <p class="accordion">What happens if I return the car late? </p>
+                <div class="panel">
+                    <p> A high penalty will be applicable for the amount of time you are late. In order to avoid paying
+                        this
+                        penalty, you can extend the booking from the app, well in advance.
+                    </p>
+                </div>
+
+                <p class="accordion">How will I receive my Refund? </p>
+                <div class="panel">
+                    <p>
+
+                        "Refund will be initiated to the account/card used to make the payment and will take upto 30
+                        days to settle." If the payment was made from the wallet account, it would take 24-48 hrs for
+                        the refund to settle..</p>
+                </div>
+                <button class="accordion">Show More⧨ </button>
+                <p class="accordion">How long do refunds take?
+                </p>
+                <div class="panel">
+                    <p>
+
+                        All Refunds made shall be through the original payment account only within 30 working days</p>
+                    <p class="accordion">What happens if I return the car late? </p>
+                    <div class="panel">
+                        <p> A high penalty will be applicable for the amount of time you are late. In order to avoid
+                            paying
+                            this
+                            penalty, you can extend the booking from the app, well in advance.
+                        </p>
+                    </div>
+
+                    <p class="accordion">How will I receive my Refund? </p>
+                    <div class="panel">
+                        <p>
+
+                            "Refund will be initiated to the account/card used to make the payment and will take upto 30
+                            days to settle." If the payment was made from the wallet account, it would take 24-48 hrs
+                            for
+                            the refund to settle..</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="big">
+                <h2>Cant find answer?</h2><br>
+                <h5>Get in touch with us. We are here to help you.</h5><br>
+                <div id="last">
+                    <h3>Email</h3>
+                    <h3>Call Center Number</h3>
+                </div>
+                <div id="contact">
+                    <h4>help@zoomcar.com</h4>
+                    <h4>08068976666</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>

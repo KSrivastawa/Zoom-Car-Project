@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css/fullname.css">
+<body>
+    <div id="arrow">
+        <span class="left">
+            &#8592;
+        </span>
+       </div>
+    
+       <div id="head_mob">
+        <h2 id="heading_mob">
+            Please Fill Some Details
+        </h2>
+       </div>
+       <p id="laststep">One last step to create a new account</p>
+
+       <div class="fullname-input">
+        <input
+          type="text"
+          name="fullname_id"
+          id="fullname_id"
+          placeholder="Full Name(As Per Driving License)"
+          
+          inputmode="text"
+          autocomplete="off"
+          type="text"
+         
+        />
+        </div>
+
+        <div class="pass-input">
+            <input
+              type="password"
+              name="pass_id"
+              id="pass_id"
+              placeholder="Password"
+              
+              inputmode="password"
+              autocomplete="off"
+              type="password"
+              oninput="mob()"
+              
+            />
+            </div>
+            <p id="charc">Minimum 8 character</p>
+
+            <div class="continue">
+                <div>Continue</div>
+            </div>
+</body>
+</html>
+<script src="./script/fullname.js"></script>
